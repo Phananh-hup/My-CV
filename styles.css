@@ -1,0 +1,153 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .container {
+    background: #555;
+    color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: inline-block;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2.5em;
+}
+
+body.dark-mode header h1 {
+    color: #f4f4f4;
+}
+
+header p {
+    margin: 5px 0;
+    color: #777;
+    font-size: 1.1em;
+}
+
+body.dark-mode header p {
+    color: #ddd;
+}
+
+header a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode section {
+    background: #666;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+body.dark-mode section h2 {
+    color: #f4f4f4;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+body.dark-mode section ul li {
+    background: #777;
+}
+
+section ul li:hover {
+    background: #ddd;
+}
+
+body.dark-mode section ul li:hover {
+    background: #888;
+}
+
+section .toggleButton {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+section .toggleButton:hover {
+    background: #0056b3;
+}
+
+section .content {
+    display: none;
+}
+
+header button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+header button:hover {
+    background: #555;
+}
+
+header .fas {
+    margin-right: 5px;
+}
